@@ -41,7 +41,7 @@ spec:
           timeoutSeconds: 10
         name: api
         ports:
-        - hostPort: 3001
+        - containerPort: 3001
           protocol: TCP
         resources:
           requests:
